@@ -1,0 +1,23 @@
+{
+    "name": "titomiguelcosta/parser",
+    "description": "A parser for a word manipulator language",
+    "type": "library",
+    "require": {
+        "doctrine/lexer": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tito Miguel Costa",
+            "email": "titomiguelcosta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
